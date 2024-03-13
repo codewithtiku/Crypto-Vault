@@ -1,30 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Vault</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utils..css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
 </head>
+
 <body>
     <header>
         <nav>
             <h2>Spot Wallet</h2>
             <ul>
                 <li><a href="index.html" class="Active">Home</a></li>
-                <li><a href="deposit.html">Deposit</a></li>
-                <li><a href="withdraw.html">Withdraw</a></li>
+                <li><a href="deposit.html" class="unactive">Deposit</a></li>
+                <li><a href="withdraw.html" class="unactive">Withdraw</a></li>
             </ul>
             <input type="text" placeholder="    Search">
             <button>Search</button>
         </nav>
     </header>
     <main>
+        <span class="wallet">
+            <h4>Spot Wallet</h4>
+            <h2>$0.00</h2>
+        </span>
+        <div class="icons">
+            <ul>
 
+                <li><a href="send.html"><img src="up-arrow.svg" alt="up-arrow" width="35vw" height="35vh">Send</a></li>
+
+                <li><a href="receive.html"><img src="down-arrow.svg" alt="down-arrow" width="35vw" height="35vh">Receive</a></li>
+
+                <li><a href="history.html"><img src="history.svg" alt="history" width="35vw" height="35vh">History</a></li>
+            </ul>
+        </div>
+        <hr class="my-2">
+        <div class="charts">
+            <ul>
+                <li class="Active2 btn">Crypto</li>
+                <li class="btn" role="button">NFTs</li>
+            </ul>
+        </div>
+        <div class="chart-content">
+
+        </div>
     </main>
     <footer>
         <p><small>Crypto Vault pvt. ltd. 2007, All Rights Reserved</small></p>
     </footer>
 </body>
+
 </html>

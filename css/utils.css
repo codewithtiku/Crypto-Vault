@@ -1,0 +1,39 @@
+.Active{
+    border: 2px solid yellow;
+    border-radius: 5px;
+}
+.Active2{
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+.btn{
+    cursor: pointer;
+}
+.unactive:hover{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 5px;   
+}
+.text-white{
+    color: white;
+}
+.my-1{
+    margin-top: 1vh;
+}
+.my-2{
+    margin-top: 2vh;
+}
+.my-3{
+    margin-top: 3vh;
+}
+.my-4{
+    margin-top: 4vh;
+}
+.my-5{
+    margin-top: 5vh;
+}

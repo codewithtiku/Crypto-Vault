@@ -31,14 +31,9 @@ header nav ul li a{
     text-decoration: none;
     color: white;
     padding: 5px;
+    font-size: large;
 }
-header nav ul li a:hover{
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-    border: 2px solid grey;
-    border-radius: 5px;
-}
+
 header nav input{
     border: 2px solid yellow;
     border-radius: 5px;
@@ -46,14 +41,313 @@ header nav input{
     width: 15vw;
     margin-right: 1vw;
 }
+header nav input:hover{
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background-color: black;
+    color: yellow;
+    height: 4vh;
+    width: 15vw;
+    margin-right: 1vw;
+}
 header nav button{
     border: 2px solid yellow;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    height: 4.5vh;
+    width: 5vw;
+}
+header nav button:hover{
+    border: 2px solid yellow;
+    background-color: black;
+    color: yellow;
     border-radius: 5px;
     height: 4.5vh;
     width: 5vw;
 }
 main{
     min-height: calc(100vh - 10vh - 5vh);
+}
+main .wallet{
+    display: flex;
+    flex-direction: column;
+    margin: 4vh 0vw 0vh 4vw;
+    
+    width: 7vw;
+    padding: 8px;
+}
+main .wallet h2{
+    margin-top: 1vh;
+}
+main .wallet h4{
+    margin-top: 1vh;
+}
+main .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+main .icons ul{
+    display: flex;
+    flex-direction: row;
+   margin: 5vh 0vw 0vh 4vw;
+    
+}
+main .icons ul li{
+    margin: 0vh 5vw 0vh 0vw;
+    list-style: none;
+}
+main .icons ul li a{
+   text-decoration: none;
+   color: black;
+   font-size: large;
+}
+main .charts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main .charts ul{
+    display: flex;
+    flex-direction: row;
+   margin: 5vh 0vw 0vh 4vw;
+   padding: 5px;
+}
+main .charts ul li{
+    margin: 0vh 3vw 0vh 0vw;
+    list-style: none;
+    font-size: x-large;
+    padding: 5px;
+}
+.cash{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    height: 70vh;
+    width: 60vh;
+    margin: auto;
+    margin-top: 12vh;
+    background-color: black;
+}
+.cash select{
+    width: 50vh;
+    height: 5vh;
+    background-color: white;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    color: black;
+}
+.cash select:hover{
+    width: 50vh;
+    height: 5vh;
+    background-color: black;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    color: yellow;
+}
+.cash input{
+    width: 50vh;
+    height: 4.3vh;
+    background-color: white;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    color: black;
+}
+.cash input:hover{
+    width: 50vh;
+    height: 4.3vh;
+    background-color: black;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    color: yellow;
+}
+.cash button{
+    width: 50vh;
+    height: 5vh;
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    color: black;
+}
+.cash button:hover{
+    width: 50vh;
+    height: 5vh;
+    background-color: black;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    color: yellow;
+}
+.cash p a{
+    color: yellow;
+}
+.login {
+    height: 70vh;
+    width: 25vw;
+    border: 4px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    outline: 2px solid rgb(242, 255, 0);
+    margin-top: 5vh
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top h2 {
+    margin: 1vh 0vw 3vh 0vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    padding: 0.5vh 0.5vw;
+}
+
+.login h4 {
+    margin: 1vh 10.5vw 1vh 0vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.login input {
+    width: 22vw;
+    height: 5vh;
+    border-radius: 4px;
+    margin: 1vh 0vw;
+}
+
+.login input:hover {
+    width: 22vw;
+    height: 5vh;
+    border-radius: 4px;
+    margin: 1vh 0vw;
+    border: 1px solid rgb(242, 255, 0);
+    color: rgb(242, 255, 0);
+    background-color: black;
+}
+
+.login button {
+    width: 22vw;
+    height: 5vh;
+    border-radius: 6px;
+    margin: 2vh 0vw;
+    background-color: rgb(242, 255, 0);
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+}
+
+.login button:hover {
+    width: 22vw;
+    height: 5vh;
+    border-radius: 6px;
+    margin: 2vh 0vw;
+    color: rgb(242, 255, 0);
+    border: 2px solid black;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.login p {
+    margin: 1vh 0vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.login hr {
+    width: 20vw;
+    margin: 2vh 0vw;
+}
+.signup {
+    height: 90vh;
+    width: 25vw;
+    border: 4px solid black;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    outline: 2px solid rgb(242, 255, 0);
+}
+
+.signup-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-top h2 {
+    margin: 1vh 0vw 3vh 0vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    padding: 0.5vh 0.5vw;
+}
+
+.signup h4 {
+    margin: 1vh 10.5vw 1vh 0vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-right: 13.5vw;
+}
+
+.signup input {
+    width: 22vw;
+    height: 5vh;
+    border-radius: 4px;
+    margin: 1vh 0vw;
+}
+
+.signup input:hover {
+    width: 22vw;
+    height: 5vh;
+    border-radius: 4px;
+    margin: 1vh 0vw;
+    border: 1px solid rgb(242, 255, 0);
+    color: rgb(242, 255, 0);
+    background-color: black;
+}
+
+.signup button {
+    width: 22vw;
+    height: 5vh;
+    border-radius: 6px;
+    margin: 2vh 0vw;
+    background-color: rgb(242, 255, 0);
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+}
+
+.signup button:hover {
+    width: 22vw;
+    height: 5vh;
+    border-radius: 6px;
+    margin: 2vh 0vw;
+    color: rgb(242, 255, 0);
+    border: 2px solid black;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.signup p {
+    margin: 1vh 0vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.signup hr {
+    width: 20vw;
+    margin: 2vh 0vw;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: auto;
 }
 footer{
     background: black;
