@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,80 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utils.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <h2>Spot Wallet</h2>
+            <h2>Crypto Vault</h2>
             <ul>
                 <li><a href="index.html" class="unactive">Home</a></li>
                 <li><a href="deposit.html" class="unactive">Deposit</a></li>
                 <li><a href="withdraw.html" class="Active">Withdraw</a></li>
             </ul>
-           
+
         </nav>
     </header>
     <main>
-
+        <div class="withdraw-container">
+            <div class="withdraw-text">
+                <h2 class="my-4">Funds Withdrawl</h2>
+            </div>
+            <div class="withdraw-main">
+                <div class="withdraw-coin">
+                    <h3 >Withdraw Method</h3>
+                    
+                    <div class="my-3">
+                        <input type="radio" id="BTC" name="drone" value="BTC" checked />
+                        <label for="BTC">BTC</label>
+                      </div>
+                    
+                      <div class="my-3">
+                        <input type="radio" id="ETH" name="drone" value="ETH" />
+                        <label for="ETH">ETH</label>
+                      </div>
+                    
+                      <div class="my-3">
+                        <input type="radio" id="BNB" name="drone" value="BNB" />
+                        <label for="BNB">BNB</label>
+                      </div>
+                      <div class="my-3">
+                        <input type="radio" id="XRP" name="drone" value="XRP" />
+                        <label for="XRP">XRP</label>
+                      </div>
+                      <div class="my-3">
+                        <input type="radio" id="USDT" name="drone" value="USDT" />
+                        <label for="USDT">USDT</label>
+                      </div>
+                      <div class="my-3">
+                        <input type="radio" id="TRX" name="drone" value="TRX" />
+                        <label for="TRX">TRX</label>
+                      </div>
+                </div>
+                <div class="withdraw-details">
+                    <small class=" text-white">*Minimun 0.01 BTC <br> *Maximum 350  BTC</small>
+                    <div class="withdraw-details2">
+                        <div class="withdraw-p">
+                            <p class="my-5 text-white">Withdrawl Amount   </p>
+                            <p class="my-5 text-white">You Will Get </p>
+                            <p class="my-5 text-white">Available Balance </p>
+                             <p class="my-5 text-white">Wallet Address </p>
+                        </div>
+                        <div class="withdraw-input">
+                         <input type="text" class="my-6">
+                         <input type="text" class="my-3">
+                         <input type="text" class="my-3">
+                         <input type="text" class="my-3">
+                        </div>
+                    </div>
+                   
+                     <button class="my-5">Withdraw</button>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p><small>Crypto Vault pvt. ltd. 2007, All Rights Reserved</small></p>
     </footer>
 </body>
+
 </html>

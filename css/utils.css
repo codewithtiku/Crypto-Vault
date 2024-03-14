@@ -37,3 +37,23 @@
 .my-5{
     margin-top: 5vh;
 }
+.my-6{
+    margin-top: 6vh;
+}
+.mx-auto{
+    margin: auto;
+}
+.text-left{
+    text-align: left;
+}
+.underline{
+    text-decoration: underline;
+}
+.link-decor{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+.link-decor-white{
+    text-decoration: none;
+    color: white;
+}
