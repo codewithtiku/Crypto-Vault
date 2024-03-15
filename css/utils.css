@@ -1,59 +1,83 @@
-.Active{
-    border: 2px solid yellow;
+.Active {
+    border: 2px solid rgb(6, 200, 248);
     border-radius: 5px;
 }
-.Active2{
+
+.Active2 {
     background: black;
     color: white;
     border: 1px solid black;
     border-radius: 17px;
 }
-.btn{
+
+.btn {
     cursor: pointer;
 }
-.unactive:hover{
+
+.unactive:hover {
     text-decoration: none;
     color: white;
     font-size: large;
     padding: 5px;
     border: 2px solid grey;
-    border-radius: 5px;   
+    border-radius: 5px;
 }
-.text-white{
+
+.unactive2:hover {
+    margin: 0vh 3vw 0vh 0vw;
+    list-style: none;
+    font-size: x-large;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 17px;
+}
+
+.text-white {
     color: white;
 }
-.my-1{
+
+.my-1 {
     margin-top: 1vh;
 }
-.my-2{
+
+.my-2 {
     margin-top: 2vh;
 }
-.my-3{
+
+.my-3 {
     margin-top: 3vh;
 }
-.my-4{
+
+.my-4 {
     margin-top: 4vh;
 }
-.my-5{
+
+.my-5 {
     margin-top: 5vh;
 }
-.my-6{
+
+.my-6 {
     margin-top: 6vh;
 }
-.mx-auto{
+
+.mx-auto {
     margin: auto;
 }
-.text-left{
+
+.text-left {
     text-align: left;
 }
-.underline{
+
+.underline {
     text-decoration: underline;
 }
-.link-decor{
+
+.link-decor {
     text-decoration: none;
     color: rgb(0, 140, 255);
 }
-.link-decor-white{
+
+.link-decor-white {
     text-decoration: none;
     color: white;
 }

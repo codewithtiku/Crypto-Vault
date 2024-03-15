@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Send - Crypto Vault</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="nav-1line">
+            <h2 class="mx-auto">Crypto Vault</h2>
+
+
+        </nav>
+    </header>
+    <main>
+        <div class="crypto-send">
+            <h3 class="my-2 text-white">Send Crypto</h3>
+            <p class="my-4 text-white">Select Coin</p>
+            <form class="my-2" action="/action_page.php">
+                <label for="coin"></label>
+                <select name="coin" id="coin">
+                    <option value="BTC"> BTC</option>
+                    <option value="ETH"> ETH</option>
+                    <option value="BNB"> BNB</option>
+                    <option value="XRP"> XRP</option>
+                    <option value="USDT"> USDT</option>
+                    <option value="TRX"> TRX</option>
+                    <option value="DOGE"> DOGE</option>
+                    <option value="USDC"> USDC</option>
+                </select>
+                <br><br>
+
+            </form>
+            <p class="my-3 text-white">Select Network</p>
+            <form class="my-2 text-white" action="/action_page.php">
+                <label for="network"></label>
+                <select name="network" id="network">
+                    <option value="ERC20">ERC20</option>
+                    <option value="TRC20">TRC20</option>
+                    <option value="BSC (BEP20)">BSC (BEP20)</option>
+                    <option value="Arbitrum One">Arbitrum One</option>
+                    <option value="AVAXC">AVAXC</option>
+                    <option value="SOL">SOL</option>
+                    <option value="MATIC">MATIC</option>
+                    <option value="Mantle Network">Mantle Network</option>
+                    <option value="Optimism">Optimism</option>
+                    <option value="KAVAEVM">KAVAEVM</option>
+                    <option value="zkSync Lite">zkSync Lite</option>
+                </select>
+                <br><br>
+
+            </form>
+            <p class="my-3 text-white">Wallet Address</p>
+            <input class="my-2" type="text" placeholder=" Input or paste the receiver's address" value="">
+
+            <p class="my-5 text-white">Select Amount</p>
+            <input class="my-2" type="text" placeholder=" Amount*" value="">
+            <button class="my-4">Send</button>
+
+        </div>
+    </main>
+    <footer class="my-2">
+        <p><small>Crypto Vault pvt. ltd. 2007, All Rights Reserved</small></p>
+    </footer>
 </body>
+
+</html>
+</body>
+
 </html>

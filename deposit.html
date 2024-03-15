@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deposit</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/utils.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deposit - Crypto Vault</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utils.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <h2>Crypto Vault</h2>
-            <ul>
-                <li><a href="index.html" class="unactive">Home</a></li>
-                <li><a href="deposit.html" class="Active">Deposit</a></li>
-                <li><a href="withdraw.html" class="unactive">Withdraw</a></li>
-            </ul>
-          
-        </nav>
-    </header>
-    <main>
-     <div class="cash">
+  <header>
+    <nav class="nav-2line">
+      <h2>Crypto Vault</h2>
+      <ul>
+        <li><a href="after-login.html" class="unactive">Home</a></li>
+        <li><a href="deposit.html" class="Active">Deposit</a></li>
+        <li><a href="withdraw.html" class="unactive">Withdraw</a></li>
+      </ul>
+
+    </nav>
+  </header>
+  <main>
+    <div class="cash">
       <h3 class="my-2 text-white">Deposit Cash</h3>
-      <p class="my-4 text-white">Slect Currency</p>
+      <p class="my-4 text-white">Select Currency</p>
       <form class="my-2" action="/action_page.php">
         <label for="currency"></label>
         <select name="currency" id="currency">
@@ -36,7 +39,7 @@
           <option value="RUB"> RUB</option>
         </select>
         <br><br>
-        
+
       </form>
       <p class="my-3 text-white">Select Payment Method</p>
       <form class="my-2 text-white" action="/action_page.php">
@@ -50,17 +53,19 @@
           <option value="Phone Pe">Phone Pe</option>
         </select>
         <br><br>
-        
+
       </form>
       <p class="my-3 text-white">Select Amount</p>
-       <input class="my-2" type="text" placeholder=" Amount*" value="RS">
-       <button class="my-4">Deposit</button>
-       <p class="my-2"><small><a class="link-decor-white" href="deposit-time.html">*How long does a deposit take?</a></small></p>
-       <p class="my-1"><small><a class="link-decor-white" href="Q&A.html">*Related questions and answers </a></small></p>
-     </div>
-    </main>
-    <footer>
-        <p><small>Crypto Vault pvt. ltd. 2007, All Rights Reserved</small></p>
-    </footer>
+      <input class="my-2" type="text" placeholder=" Amount*" value="RS">
+      <button class="my-4">Deposit</button>
+      <p class="my-2"><small><a class="link-decor-white" href="deposit-time.html">*How long does a deposit
+            take?</a></small></p>
+      <p class="my-1"><small><a class="link-decor-white" href="Q&A.html">*Related questions and answers </a></small></p>
+    </div>
+  </main>
+  <footer>
+    <p><small>Crypto Vault pvt. ltd. 2007, All Rights Reserved</small></p>
+  </footer>
 </body>
+
 </html>

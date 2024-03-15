@@ -4,48 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypto Vault</title>
+    <title>Login - Crpto Vault</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <h2>Crypto Vault</h2>
-            <ul>
-                <li><a href="index.html" class="Active">Home</a></li>
-                <li><a href="deposit.html" class="unactive">Deposit</a></li>
-                <li><a href="withdraw.html" class="unactive">Withdraw</a></li>
-            </ul>
-            <input type="text" placeholder="    Search">
-            <button>Search</button>
+        <nav class="nav-1line">
+            <h2 class="mx-auto">Crypto Vault</h2>
+
+
         </nav>
     </header>
     <main>
-        <span class="wallet">
-            <h4>Spot Wallet</h4>
-            <h2 id="amount">$0.00</h2>
-        </span>
-        <div class="icons">
-            <ul>
+        <div class="container2 my-2">
+            <div class="login margin-bottom text-center">
+                <div class="top">
 
-                <li><a href="send.html"><img src="up-arrow.svg" alt="up-arrow" width="35vw" height="35vh">Send</a></li>
+                    <h2>Login</h2>
+                    <small>
 
-                <li><a href="receive.html"><img src="down-arrow.svg" alt="down-arrow" width="35vw" height="35vh">Receive</a></li>
+                        <h4>Email or Phone Number</h4>
+                    </small>
+                    <input id="input-Email" type="text">
+                    <small>
 
-                <li><a href="history.html"><img src="history.svg" alt="history" width="35vw" height="35vh">History</a></li>
-            </ul>
-        </div>
-        <hr class="my-2">
-        <div class="charts">
-            <ul>
-                <li class="Active2 btn">Crypto</li>
-                <li class="btn" role="button">NFTs</li>
-            </ul>
-        </div>
-        <div class="chart-content">
+                        <h4>Enter Your Password</h4>
+                    </small>
+                    <input id="input-Password" type="text">
+                    <button id="btn-login">Continue</button>
+                    <p><small>By continuing, You agree to CryptoVault's <a href="terms.html" class="link-decor">Terms of
+                                Use</a> and <a href="policy.html" class="link-decor">Privacy policy</a></small></p>
+                </div>
+                <div>
 
+                    <hr>
+                    <p><small>Don't have an Account? <a href="signup.html" class="link-decor">Create an
+                                Account</a></small></p>
+                </div>
+            </div>
         </div>
     </main>
     <footer>

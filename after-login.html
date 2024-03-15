@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Crypto Vault</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2>Crypto Vault</h2>
+            <ul>
+                <li><a href="after-login.html" class="Active">Home</a></li>
+                <li><a href="deposit.html" class="unactive">Deposit</a></li>
+                <li><a href="withdraw.html" class="unactive">Withdraw</a></li>
+            </ul>
+            <input type="text" placeholder="    Search">
+            <button>Search</button>
+        </nav>
+    </header>
+    <main>
+        <div class="wallet my-5">
+            <h4>Spot Wallet </h4>
+            <h5 class="my-2 text-center" id="amount">Tether USDt - 0.00</h5>
+            <h5 class="my-1 text-center" id="amount2">BTC - 0.00</h5>
+        </div>
+        <div class="icons">
+            <ul>
+
+                <li><a href="send.html"><img src="up-arrow.svg" alt="up-arrow" width="35vw" height="35vh">Send</a></li>
+
+                <li><a href="receive.html"><img src="down-arrow.svg" alt="down-arrow" width="35vw"
+                            height="35vh">Receive</a></li>
+
+                <li><a href="history.html"><img src="history.svg" alt="history" width="35vw" height="35vh">History</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-2">
+        <div class="charts">
+            <ul>
+                <li class="Active2 btn" id="crypto-chart">Crypto</li>
+
+            </ul>
+        </div>
+        <div class="chart-content my-2 mx-auto">
+            <div class="tradingview-widget-container" id="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a class="link-decor" href="https://in.tradingview.com/"
+                        rel="noopener nofollow" target="_blank">Track all markets on TradingView</a></div>
+                <script type="text/javascript"
+                    src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+                        {
+                            "width": "400",
+                                "height": "700",
+                                    "defaultColumn": "overview",
+                                        "screener_type": "crypto_mkt",
+                                            "displayCurrency": "USD",
+                                                "colorTheme": "light",
+                                                    "locale": "in"
+                        }
+                    </script>
+            </div>
+        </div>
+    </main>
+    <footer class="my-2">
+        <p><small>Crypto Vault pvt. ltd. 2007, All Rights Reserved</small></p>
+    </footer>
+    <script src="js/after-login.js"></script>
+</body>
+
+</html>
