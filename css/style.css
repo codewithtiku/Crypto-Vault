@@ -716,11 +716,16 @@ main .charts ul li {
     display: flex;
     flex-direction: column;
     height: 90vh;
-    width: 10vw;
+    width: 30vw;
     padding: 15px;
     color: whitesmoke;
 }
-
+.usdt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .history-content {
     display: flex;
     flex-direction: column;

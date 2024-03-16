@@ -15,21 +15,10 @@ document.addEventListener('DOMContentLoaded', function () {
         // If any input field is empty, display error message
         if (!allFieldsEntered) {
             const errorMessage = document.createElement('p');
-            errorMessage.textContent = 'Please fill in all the fields.';
-            errorMessage.style.color = 'red';
-
-            // Check if error container already exists, create it if not
-            let errorContainer = document.querySelector('.error-container');
-            if (!errorContainer) {
-                errorContainer = document.createElement('div');
-                errorContainer.classList.add('error-container');
-                const signUpDiv = document.querySelector('.signup');
-                signUpDiv.appendChild(errorContainer);
-            }
-
-            // Insert error message into the container
-            errorContainer.innerHTML = '';
-            errorContainer.appendChild(errorMessage);
+            errorMessage.innerHTML = 'Please fill in all the fields.';
+            errorMessage.classList.add('Text-red')
+    const signUpDiv = document.querySelector('.signup');
+            signUpDiv.appendChild(errorMessage);
         } else {
             // Clear input field values and redirect
             inputFields.forEach(input => {
@@ -39,3 +28,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+document.querySelector('button').addEventListener('click', SignupFunc);
+function SignupFunc(){
+    let email = document.getElementById('signup-email').value;
+    let password = document.getElementById('signup-pass').value;
+    localStorage.setItem(email, password);
+}
