@@ -2,6 +2,14 @@
 
 /* Media query for screens with a maximum width of 450px */
 @media screen and (max-width: 450px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+    }
+    .home-body{
+        background-color: whitesmoke;
+    }
     header nav {
         display: flex;
         flex-direction: column;
@@ -10,7 +18,7 @@
         background-color: black;
         height: 25vh;
     }
-
+    
     header nav h2 {
         margin: auto;
         color: white;
@@ -48,7 +56,7 @@
         background-color: rgb(6, 200, 248);
         color: black;
         border-radius: 5px;
-        margin-top: 2vh;
+        margin-top: 1vh;
         margin-bottom: 1vh;
         height: 4vh;
         width: 85vw;
@@ -59,12 +67,22 @@
         background-color: black;
         color: rgb(6, 200, 248);
         border-radius: 5px;
-        margin-top: 2vh;
+        margin-top: 1vh;
         margin-bottom: 1vh;
         height: 4vh;
         width: 85vw;
     }
-
+    .nav-1line{
+        display: flex;
+        flex-direction: row;
+        color: white;
+    }
+    .nav-1line p{
+        padding: 5px;
+        border: 2px solid rgb(6, 200, 248);
+        border-radius: 10px;
+        margin-left: 2vh;
+    }
     main {
         min-height: calc(100vh - 80vh);
         /* Adjusted min-height calculation */
@@ -269,7 +287,7 @@
     }
 
     .signup {
-        height: 90vh;
+        height: 80vh;
         /* Adjusted height */
         width: 80vw;
         /* Adjusted width */
@@ -368,7 +386,7 @@
 
     /* Adjusted heights for different screen sizes */
     .content {
-        height: 215vh;
+        height: 230vh;
         /* Auto height */
         padding: 5vw;
         /* Adjusted padding */
@@ -380,13 +398,13 @@
     }
 
     .content-deposit-time {
-        height: 130vh;
+        height: 140vh;
         /* Auto height */
 
     }
 
     .content-q-and-a {
-        height: 160vh;
+        height: 175vh;
         /* Auto height */
     }
 
@@ -642,7 +660,7 @@
         border: 2px solid rgb(6, 200, 248);
         border-radius: 20px;
         background-color: black;
-        height: 90vh;
+        height: 120vh;
         width: 90vw;
         margin: auto;
         margin-top: 2vh;
@@ -665,7 +683,7 @@
         flex-direction: column;
         justify-content: right;
         text-align: right;
-        margin-right: 10vw;
+        margin-right: 12vw;
         height: 90vh;
         width: 10vw;
         padding: 15px;
