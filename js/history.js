@@ -25,21 +25,54 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function HistoryFunc(){
     if(localStorage.getItem('History')){
-        document.querySelector('.history-info').innerHTML = `<div class="usdt">
+        document.querySelector('.history-info').innerHTML = `
+        
+    <div class="usdt">
         <h4>USDT <br>
-            <p>2024-03-16 10:41:12</p>
+            <p>2024-03-18 18:21:34</p>
         </h4>
         <h4 class="my-1 history-no"></h4>
     </div>
     <div class="usdt">
         <h4>USDT <br>
-            <p>2024-03-16 10:35:21</p>
+            <p>2024-03-18 15:38:58</p>
         </h4>
         <h4 class="my-1 history-no"></h4>
     </div>
     <div class="usdt">
         <h4>USDT <br>
-            <p>2024-03-16 10:15:32</p>
+            <p>2024-03-18 11:44:02</p>
+        </h4>
+        <h4 class="my-1 history-no"></h4>
+    </div>
+    <div class="usdt">
+        <h4>USDT <br>
+            <p>2024-03-18 06:32:27</p>
+        </h4>
+        <h4 class="my-1 history-no"></h4>
+    </div>
+    <div class="usdt">
+        <h4>USDT <br>
+            <p>2024-03-17 19:12:20</p>
+        </h4>
+        <h4 class="my-1 history-no"></h4>
+    </div>
+
+        <div class="usdt">
+        <h4>USDT <br>
+            <p>2024-03-17 14:10:49</p>
+        </h4>
+        <h4 class="my-1 history-no"></h4>
+    </div>
+    <div class="usdt">
+        <h4>USDT <br>
+            <p>2024-03-17 11:53:14</p>
+        </h4>
+        <h4 class="my-1 history-no"></h4>
+    </div>
+    <div class="usdt">
+        <h4>USDT <br>
+            <p>2024-03-17 09:45:33</p>
         </h4>
         <h4 class="my-1 history-no"></h4>
     </div>

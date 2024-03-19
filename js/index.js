@@ -22,7 +22,7 @@ function LoginFunc() {
 
     if (isLoggedIn) {
         if (email === 'harshrao@gmail.com') {
-            localStorage.setItem('Amount', '25,32,19,844.56');
+            localStorage.setItem('Amount', '89,45,238.54');
         localStorage.setItem('History', true);
         } else{
             localStorage.setItem('Amount', '0.00');
